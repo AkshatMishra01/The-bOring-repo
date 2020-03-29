@@ -7,4 +7,4 @@ struct node
 int num;
 struct node *add;
 };
-typedef Node 
+
