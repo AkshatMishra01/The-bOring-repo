@@ -8,3 +8,8 @@ int main()
 	 {
 
 		}
+float resource__man()
+{}
+float process_man()
+{}
+
