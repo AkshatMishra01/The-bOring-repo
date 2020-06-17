@@ -51,3 +51,16 @@ public static void main (String[] args)
     System.out.println(Arrays.toString(integers));
 }
 } 
+//copying an array to another array by the hel of arraycopy() function of the system class.
+import java.util.Arrays;
+class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("This is an array copy program in java using arraycopy() function of the system class");
+        int [] numbers = {9,2,4,3,5};
+        int [] integers = new int [9];
+        arraycopy(numbers,0,integers,0,5);
+        System.out.println(Arrays.toString(integers));
+    }
+}
