@@ -26,3 +26,28 @@ substitute[i] = numbers[i]
 System.out.println("The substituted elements in the array are:" + substitue[i]);
 }
 }
+import java.util.Arrays;
+import java.util.Scanner;
+public class Main 
+{
+public static void main (String[] args) 
+{
+    System.out.println("This iis an array copy program in java");
+    int [] numbers = new int [5];
+    int [] integers = new int [5];
+    Scanner input = new Scanner(System.in);
+    for(int i=0; i<numbers.length ;i++)
+    {
+         numbers[i] = input.nextInt();
+    }
+    System.out.println("The first array is:");
+    System.out.println(Arrays.toString(numbers));
+    int i;
+    for(i=0; i<numbers.length ;i++)
+    {
+        integers[i] = numbers[i];
+    }
+    System.out.println("The second array is:");
+    System.out.println(Arrays.toString(integers));
+}
+} 
