@@ -1,0 +1,3 @@
+int speedLimit = 80;
+... .. ...
+float speedLimit;
