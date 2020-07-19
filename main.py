@@ -15,6 +15,14 @@ e= float(e)
 b = str(b)
 print(e,b)
 name = "aks67t"
+mine= " is a good boy"
 print(name.strip())
 var = name.replace("67","ha")
 print(var)
+print(var + mine)
+x= " kumar mishra"
+y= " the best"
+tmp = "iAM akshat {1} and i am {0}".format(x,y)
+print(tmp)
+typeTmp= type(tmp)
+print(typeTmp)
