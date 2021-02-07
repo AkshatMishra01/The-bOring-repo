@@ -1,0 +1,23 @@
+import pyfirmata as pyf
+import serial
+import time
+
+ArduinoSerial = serial.Serial('com15',9600)
+
+print (ArduinoSerial.readline())
+
+print("you have a new message from Arduino")
+while 1:
+    var = raw_input()
+
+    if(var=='1')
+    ArduinoSerial.write('1')
+
+    print("ON")
+    time.sleep(1)
+    if(var=='0'):
+        ArduinoSerial.write('0')
+        print('led turned off')
+        time.sleep(1)
+
+        if(var == 'fine and you'): 
